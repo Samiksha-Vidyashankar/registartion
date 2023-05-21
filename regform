@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Form</title>
+  </head>
+  <body>
+    <h1>Sports Club Registration Form</h1>
+    <form>
+      <label>First Name </label>
+      <input type="text" name="firstname" size="20" /> <br />
+      <br />
+
+      <label>Last Name </label>
+      <input type="text" name="lastname" size="20" /> <br />
+      <br />
+
+      <label>Date of Birth</label>
+      <input type="date" name="dob" /> <br />
+      <br />
+
+      <label>Registration Number </label>
+      <input type="text" name="age" /> <br />
+      <br />
+
+      <label>Gender</label> <br />
+      <input type="radio" name="gender" />Male <br />
+      <input type="radio" name="gender" />Female <br />
+      <input type="radio" name="gender" />Other <br />
+      <br />
+
+      <label>Select Sports</label> <br />
+      <input type="checkbox" name="cricket" />Cricket <br />
+      <input type="checkbox" name="football" />Football <br />
+      <input type="checkbox" name="badminton" />Badminton <br />
+      <input type="checkbox" name="swimming" />Swimming <br />
+      <input type="checkbox" name="basketball" />Basketball <br />
+      <br />
+
+      <label>Year of Study </label>
+      <select>
+        <option value="Year">--Select Year--</option>
+        <option value="first year">1st year</option>
+        <option value="second year">2nd Year</option>
+        <option value="third year">3rd Year</option>
+        <option value="fourth year">4th year</option>
+      </select>
+      <br />
+      <br />
+
+      <button type="submit" id="button" aria-setsize="20">SUBMIT</button>
+    </form>
+  </body>
+</html>
